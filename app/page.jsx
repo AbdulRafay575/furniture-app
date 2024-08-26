@@ -2,7 +2,7 @@ import Collection from "../components/Collection";
 import Services from "../components/Services";
 import NewArrival from "../components/NewArrival";
 import Footer from "../components/Footer";
-import Navbar from "../components/Navbar";
+import Navbar from "../components/navbar";
 import Slider from "../components/Slider";
 const Home = () => {
   return (

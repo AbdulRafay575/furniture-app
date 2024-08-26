@@ -1,8 +1,8 @@
 "use client";
 import { useEffect, useState } from 'react';
 import axios from 'axios';
-import ProductList from '@/components/ProductList';
-import ProductForm from '@/components/ProductForm';
+import ProductList from '../../components/ProductList';
+import ProductForm from '../../components/ProductForm';
 import { useRouter } from 'next/navigation';
 
 export default function Dashboard() {

@@ -11,10 +11,10 @@ export default function Dashboard() {
 
     useEffect(() => {
         const token = localStorage.getItem('token');
-        // if (!token) {
-        //     router.push('/login');
-        //     return;
-        // }
+        if (!token) {
+            router.push('/login');
+            return;
+        }
 
         axios
             .get('/api/products', { headers: { Authorization: `Bearer ${token}` } })
